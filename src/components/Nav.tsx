@@ -17,6 +17,9 @@ const NavStyles = styled.nav`
     text-align: center;
     list-style: none;
     align-items: center;
+    @media (min-width: 1100px) {
+      margin-top: -6rem;
+    }
   }
   li {
     --rotate: -2deg;
