@@ -5,7 +5,7 @@
     "plugin:prettier/recommended",
     "prettier/@typescript-eslint"
   ],
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": ["@typescript-eslint"],
   "parserOptions": {
     "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
     "sourceType": "module" // Allows for the use of imports
@@ -23,15 +23,6 @@
         "avoidEscape": true
       }
     ],
-    "indent": ["error", 2, { "SwitchCase": 1 }],
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "es5",
-        "semi": true,
-        "singleQuote": false,
-        "printWidth": 120
-      }
-    ]
+    "indent": ["error", 2, { "SwitchCase": 1 }]
   }
 }
