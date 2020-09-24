@@ -57,7 +57,7 @@ const Nav: FC = () => (
         <Link to="/pizzas">Pizza Menu</Link>
       </li>
       <li>
-        <Logo to="/">LOGO</Logo>
+        <Logo />
       </li>
       <li>
         <Link to="/slicemasters">Slice Masters</Link>

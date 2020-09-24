@@ -16,6 +16,7 @@
   },
   "rules": {
     "quotes": "off",
+    "prettier/prettier": ["error", {"singleQuote": true, "trailingComma": "none"}],
     "@typescript-eslint/quotes": [
       2,
       "backtick",
